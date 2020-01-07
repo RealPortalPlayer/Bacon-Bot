@@ -5,8 +5,13 @@ This is the source code of Bacon Bot.
 Download the source code, then make a file called "settings.json" and put this code
 
 {
-    "token": "insert token",
-    "prefix": "insert prefix",
-    "success": insert color id as decimal,
-    "failure": insert color id as decimal
+    "token": "token",
+    "prefix": "prefix"
+    "ownerids": [ids],
+    "success": decimal color,
+    "failure": decimal color
 }
+
+then run
+
+node .
