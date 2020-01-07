@@ -1,6 +1,7 @@
 const {success} = require("../settings.json")
 
 module.exports.run = async (bot, msg, args, commands) => {
+    msg.delete()
     msg.channel.send(args.join(" "))
 }
 
